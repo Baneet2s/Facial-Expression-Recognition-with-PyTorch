@@ -32,9 +32,9 @@ After training, the model achieves the Validation Accuracy of ~64%
 
 ### Sample Inference
 Below are some examples of the model's prediction on sample images:
-- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%201.png)
-- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%202.png)
-- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%203.png)
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Samples/Sample%201.png)
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Samples/Sample%202.png)
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Samples/Sample%203.png)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
