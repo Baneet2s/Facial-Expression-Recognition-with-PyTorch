@@ -27,66 +27,14 @@ The dataset is split into training and validation sets. You can download the dat
 
 ---
 
-## Installation
-To set up the project, follow these steps:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Baneet2s/facial-expression-recognition.git
-   cd facial-expression-recognition
-   ```
-
-2. **Install Dependencies:**
-   Ensure you have Python 3.7+ installed. Then, install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Alternatively, you can install the dependencies manually:
-   ```bash
-   pip install torch torchvision timm albumentations opencv-python tqdm matplotlib numpy
-   ```
-
-3. **Download the Dataset:**
-   Clone the dataset repository:
-   ```bash
-   git clone https://github.com/parth1620/Facial-Expression-Dataset.git
-   ```
-
----
-
-## Usage
-
-### Training the Model
-To train the model, run the following Python script:
-```python
-python train.py
-```
-
-### Inference
-To perform inference on a sample image from the validation set, use the following code:
-```python
-python inference.py
-```
-
-### Hyperparameters
-You can customize the training process by modifying the following hyperparameters in the script:
-- `LR`: Learning rate (default: `0.001`)
-- `BATCH_SIZE`: Batch size (default: `32`)
-- `EPOCHS`: Number of epochs (default: `15`)
-- `DEVICE`: Training device (`'cuda'` for GPU or `'cpu'` for CPU)
-
----
-
 ## Results
-After training, the model achieves the following performance:
-- **Training Accuracy:** ~90%
-- **Validation Accuracy:** ~85%
+After training, the model achieves the Validation Accuracy of ~64%
 
 ### Sample Inference
-Below is an example of the model's prediction on a sample image:
-
-![Sample Inference](sample_inference.png)
+Below are some examples of the model's prediction on sample images:
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%201.png)
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%202.png)
+- ![Image](https://github.com/Baneet2s/Facial-Expression-Recognition-with-PyTorch/blob/main/Sample%203.png)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
